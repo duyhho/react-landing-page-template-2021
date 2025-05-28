@@ -10,8 +10,14 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
+import Review from '../components/Review';
+
+import EmblaCarousel from '../components/EmblaCarousel'
+
+import { EmblaOptionsType } from 'embla-carousel'
 
 const App = () => {
+  const OPTIONS: EmblaOptionsType = { slidesToScroll: 'auto' }
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
       <div className={`relative bg-background`}>
@@ -39,7 +45,13 @@ const App = () => {
         </>
       </LazyShow>
       <LazyShow>
-        <Pricing />
+        <>
+          <Pricing />
+          {/* <div className="pt-8">
+            <Review />
+          </div> */}
+          <EmblaCarousel options={OPTIONS} />
+        </>
       </LazyShow>
       <LazyShow>
         <>

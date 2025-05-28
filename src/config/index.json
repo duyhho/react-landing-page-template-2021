@@ -1,153 +1,177 @@
 {
-  "company": {
-    "name": "React landing page 2021",
+"company": {
+    "name": "Small Business Tax Inc.",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
-    {
-      "name": "Product",
-      "href": "product"
-    },
-    {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
-    }
+    { "name": "Services", "href": "product" },
+    { "name": "Technologies", "href": "features" },
+    { "name": "Pricing", "href": "pricing" },
+    { "name": "About", "href": "about" }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Get a Free Consultation",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Expert Tax Solutions for Your Business",
+    "subtitle": "Small Business Tax Inc.",
+    "description": "We specialize in tax preparation and strategic financial planning for small businesses and entrepreneurs. With our experienced team, you can focus on growing your business while we handle your taxes.",
     "img": "/assets/images/happyTeam.jpeg",
-    "primaryAction": {
-      "text": "Get started",
-      "href": "#"
-    },
+    "primaryAction": { "text": "Book an Appointment", "href": "#" },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:info@smallbusinesstax.com?subject=Inquiry from Landing Page"
     }
   },
-  "product": {
-    "title": "React landing page 2021",
-    "items": [
-      {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
-      }
-    ]
-  },
+"product": {
+  "title": "Tailored Tax Services",
+  "items": [
+    {
+      "title": "Full-Service Tax Preparation",
+      "description": "Accurate and timely filing for LLCs, S-corps, sole proprietors, and more. We ensure compliance while maximizing deductions.",
+      "img": "/assets/images/product1.jpg"
+    },
+    {
+      "title": "Tax Planning & Advisory",
+      "description": "Strategic guidance throughout the year to help you reduce liabilities and avoid surprises.",
+      "img": "/assets/images/product2.jpg"
+    },
+    {
+      "title": "Bookkeeping & Write-Up",
+      "description": "Ongoing bookkeeping services to support accurate records and informed financial decisions.",
+      "img": "/assets/images/product1.jpg"
+    },
+    {
+      "title": "Entity Structuring & Business Consulting",
+      "description": "We help you choose the right legal entity and offer expert advice on business strategy and operations.",
+      "img": "/assets/images/product2.jpg"
+    },
+    {
+      "title": "IRS Representation & Audit Support",
+      "description": "Facing an audit? We provide complete support and representation before tax authorities.",
+      "img": "/assets/images/product1.jpg"
+    },
+    {
+      "title": "Payroll & Retirement Planning",
+      "description": "Reliable payroll services and employee retirement plan setup, tailored to your business.",
+      "img": "/assets/images/product2.jpg"
+    }
+  ]
+},
+
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "items": [
-      {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
-      },
-      {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
-      },
-      {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
-      }
-    ]
-  },
+  "title": "Technology That Works for You",
+  "subtitle": "Streamlined tools for secure, smart, and simple tax filing",
+  "description": "We use a modern, secure, and client-friendly tech stack to make your tax experience effortless, whether you're uploading documents or tracking your filing status.",
+  "items": [
+    {
+      "name": "🔐 Encrypted Client Portals",
+      "description": "Upload your documents and access reports safely with bank-level encryption.",
+      "icon": "/assets/images/checkmark.svg"
+    },
+    {
+      "name": "📊 Real-Time Progress Tracking",
+      "description": "Know where your returns stand with instant updates and transparent timelines.",
+      "icon": "/assets/images/checkmark.svg"
+    },
+    {
+      "name": "📱 Mobile-Friendly Design",
+      "description": "Submit, review, and communicate from your phone or tablet—no app required.",
+      "icon": "/assets/images/checkmark.svg"
+    },
+    {
+      "name": "🗂️ Audit-Ready Records",
+      "description": "We maintain a secure archive of all your filings and correspondence for peace of mind.",
+      "icon": "/assets/images/checkmark.svg"
+    }
+  ]
+},
+
+
+
   "pricing": {
     "title": "Pricing",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
+        "name": "Starter",
+        "price": "$199",
+        "priceDetails": "per year",
+        "features": ["Tax Filing for 1 Entity", "Email Support", "Secure Document Portal"]
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Growth (Recommended)",
+        "price": "$399",
+        "priceDetails": "per year",
+        "features": ["Tax Filing for up to 3 Entities", "Phone + Email Support", "Quarterly Reviews"]
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Premium",
+        "price": "$799",
+        "priceDetails": "per year",
+        "features": ["Unlimited Entities", "Dedicated Advisor", "Audit Protection", "24/7 Support"]
       }
     ]
   },
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "Our Mission",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "At Small Business Tax Inc., our mission is to empower small businesses by taking the stress out of tax season."
       },
       {
-        "name": "Something",
+        "name": "Experience",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "With over 20 years in tax and accounting, we bring deep expertise to every client interaction."
       },
       {
-        "name": "Something",
+        "name": "Approach",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "We believe in personalized service, proactive planning, and full transparency."
       },
       {
-        "name": "Something",
+        "name": "Location",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "We’re based in Orange, CA, and proudly serve clients across the U.S. remotely."
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "github": "https://github.com/sbt-inc",
+      "twitter": "https://twitter.com/sbt_tax",
+      "linkedin": "https://www.linkedin.com/company/small-business-tax-inc"
     }
-  }
+  },
+  "reviews": [
+    {
+      "id": "0QLDuCgYpjmc01WOnI-8XA",
+      "user": "Joe I.",
+      "userUrl": "https://www.yelp.com/user_details?userid=T7pej0pcx3EQItBWR7fHlA",
+      "reviewUrl": "https://www.yelp.com/biz/small-business-tax-orange?hrid=0QLDuCgYpjmc01WOnI-8XA"
+    },
+    {
+      "id": "YWwPyo4O4iceI5lW9aU6CQ",
+      "user": "Celine S.",
+      "userUrl": "https://www.yelp.com/user_details?userid=wqdny_uX5M_JPOtjx0qC_w",
+      "reviewUrl": "https://www.yelp.com/biz/small-business-tax-orange?hrid=YWwPyo4O4iceI5lW9aU6CQ"
+    },
+    {
+      "id": "RjvgiFbUdnCmvr_JS-8XaQ",
+      "user": "Julie D.",
+      "userUrl": "https://www.yelp.com/user_details?userid=Hcvm99qyqXt3yUYhA9dc_w",
+      "reviewUrl": "https://www.yelp.com/biz/small-business-tax-orange?hrid=RjvgiFbUdnCmvr_JS-8XaQ"
+    },
+    {
+      "id": "SuaxEAKNTThO97s0EStJqw",
+      "user": "Jessica W.",
+      "userUrl": "https://www.yelp.com/user_details?userid=1zF6Fqexbnq7eqEvykz_nA",
+      "reviewUrl": "https://www.yelp.com/biz/small-business-tax-orange?hrid=SuaxEAKNTThO97s0EStJqw"
+    },
+    {
+      "id": "s5cfyU-osQ5gvuXWGvqcGw",
+      "user": "Esther C.",
+      "userUrl": "https://www.yelp.com/user_details?userid=ZN2zdvLf-EnmUg4aiju_Ng",
+      "reviewUrl": "https://www.yelp.com/biz/small-business-tax-orange?hrid=s5cfyU-osQ5gvuXWGvqcGw"
+    }
+  ]
 }
