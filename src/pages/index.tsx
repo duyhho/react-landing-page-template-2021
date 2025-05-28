@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { EmblaOptionsType } from 'embla-carousel';
+import Head from 'next/head';
 
 import About from '../components/About';
 import Analytics from '../components/Analytics';
@@ -13,14 +14,17 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
-import Head from 'next/head';
+
 const App = () => {
   const OPTIONS: EmblaOptionsType = { slidesToScroll: 'auto' };
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-       <Head>
+      <Head>
         <title>Small Business Tax Inc. | Expert Tax Solutions</title>
-        <meta name="description" content="Specialized tax services for small businesses and entrepreneurs." />
+        <meta
+          name="description"
+          content="Specialized tax services for small businesses and entrepreneurs."
+        />
       </Head>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
