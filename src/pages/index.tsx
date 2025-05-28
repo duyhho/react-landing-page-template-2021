@@ -25,6 +25,28 @@ const App = () => {
           name="description"
           content="Specialized tax services for small businesses and entrepreneurs."
         />
+        <meta property="og:title" content="Small Business Tax Inc." />
+        <meta
+          property="og:description"
+          content="Expert tax and advisory services for small businesses."
+        />
+        <meta
+          property="og:image"
+          content="https://sbttax.vercel.app/assets/images/preview.jpg"
+        />
+        <meta property="og:url" content="https://sbttax.vercel.app" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Small Business Tax Inc." />
+        <meta
+          name="twitter:description"
+          content="Secure, smart tax solutions for entrepreneurs."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sbttax.vercel.app/assets/images/preview.jpg"
+        />
       </Head>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
