@@ -1,5 +1,6 @@
-import React from 'react';
-import config from '../config/index.json';
+import React from "react";
+
+import config from "../config/index.json";
 
 const Pricing = () => {
   const { pricing } = config;
@@ -17,11 +18,13 @@ const Pricing = () => {
               key={plan.name}
               className={`flex flex-col w-full max-w-sm mx-auto lg:mx-0 bg-white shadow-md rounded-lg overflow-hidden 
                 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl cursor-pointer ${
-                  index === 1 ? 'border-2 border-primary' : ''
+                  index === 1 ? "border-2 border-primary" : ""
                 }`}
             >
               <div className="p-6 border-b text-center">
-                <h2 className="text-2xl font-bold text-gray-800">{plan.name}</h2>
+                <h2 className="text-2xl font-bold text-gray-800">
+                  {plan.name}
+                </h2>
               </div>
 
               <ul className="text-center text-sm text-gray-700 divide-y px-6">

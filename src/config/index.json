@@ -1,5 +1,5 @@
 {
-"company": {
+  "company": {
     "name": "Small Business Tax Inc.",
     "logo": "/assets/images/logo.png"
   },
@@ -24,71 +24,69 @@
       "href": "mailto:info@smallbusinesstax.com?subject=Inquiry from Landing Page"
     }
   },
-"product": {
-  "title": "Tailored Tax Services",
-  "items": [
-    {
-      "title": "Full-Service Tax Preparation",
-      "description": "Accurate and timely filing for LLCs, S-corps, sole proprietors, and more. We ensure compliance while maximizing deductions.",
-      "img": "/assets/images/product1.jpg"
-    },
-    {
-      "title": "Tax Planning & Advisory",
-      "description": "Strategic guidance throughout the year to help you reduce liabilities and avoid surprises.",
-      "img": "/assets/images/product2.jpg"
-    },
-    {
-      "title": "Bookkeeping & Write-Up",
-      "description": "Ongoing bookkeeping services to support accurate records and informed financial decisions.",
-      "img": "/assets/images/product1.jpg"
-    },
-    {
-      "title": "Entity Structuring & Business Consulting",
-      "description": "We help you choose the right legal entity and offer expert advice on business strategy and operations.",
-      "img": "/assets/images/product2.jpg"
-    },
-    {
-      "title": "IRS Representation & Audit Support",
-      "description": "Facing an audit? We provide complete support and representation before tax authorities.",
-      "img": "/assets/images/product1.jpg"
-    },
-    {
-      "title": "Payroll & Retirement Planning",
-      "description": "Reliable payroll services and employee retirement plan setup, tailored to your business.",
-      "img": "/assets/images/product2.jpg"
-    }
-  ]
-},
+  "product": {
+    "title": "Tailored Tax Services",
+    "items": [
+      {
+        "title": "Full-Service Tax Preparation",
+        "description": "Accurate and timely filing for LLCs, S-corps, sole proprietors, and more. We ensure compliance while maximizing deductions.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Tax Planning & Advisory",
+        "description": "Strategic guidance throughout the year to help you reduce liabilities and avoid surprises.",
+        "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "Bookkeeping & Write-Up",
+        "description": "Ongoing bookkeeping services to support accurate records and informed financial decisions.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Entity Structuring & Business Consulting",
+        "description": "We help you choose the right legal entity and offer expert advice on business strategy and operations.",
+        "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "IRS Representation & Audit Support",
+        "description": "Facing an audit? We provide complete support and representation before tax authorities.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Payroll & Retirement Planning",
+        "description": "Reliable payroll services and employee retirement plan setup, tailored to your business.",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
 
   "features": {
-  "title": "Technology That Works for You",
-  "subtitle": "Streamlined tools for secure, smart, and simple tax filing",
-  "description": "We use a modern, secure, and client-friendly tech stack to make your tax experience effortless, whether you're uploading documents or tracking your filing status.",
-  "items": [
-    {
-      "name": "🔐 Encrypted Client Portals",
-      "description": "Upload your documents and access reports safely with bank-level encryption.",
-      "icon": "/assets/images/checkmark.svg"
-    },
-    {
-      "name": "📊 Real-Time Progress Tracking",
-      "description": "Know where your returns stand with instant updates and transparent timelines.",
-      "icon": "/assets/images/checkmark.svg"
-    },
-    {
-      "name": "📱 Mobile-Friendly Design",
-      "description": "Submit, review, and communicate from your phone or tablet—no app required.",
-      "icon": "/assets/images/checkmark.svg"
-    },
-    {
-      "name": "🗂️ Audit-Ready Records",
-      "description": "We maintain a secure archive of all your filings and correspondence for peace of mind.",
-      "icon": "/assets/images/checkmark.svg"
-    }
-  ]
-},
-
-
+    "title": "Technology That Works for You",
+    "subtitle": "Streamlined tools for secure, smart, and simple tax filing",
+    "description": "We use a modern, secure, and client-friendly tech stack to make your tax experience effortless, whether you're uploading documents or tracking your filing status.",
+    "items": [
+      {
+        "name": "🔐 Encrypted Client Portals",
+        "description": "Upload your documents and access reports safely with bank-level encryption.",
+        "icon": "/assets/images/checkmark.svg"
+      },
+      {
+        "name": "📊 Real-Time Progress Tracking",
+        "description": "Know where your returns stand with instant updates and transparent timelines.",
+        "icon": "/assets/images/checkmark.svg"
+      },
+      {
+        "name": "📱 Mobile-Friendly Design",
+        "description": "Submit, review, and communicate from your phone or tablet—no app required.",
+        "icon": "/assets/images/checkmark.svg"
+      },
+      {
+        "name": "🗂️ Audit-Ready Records",
+        "description": "We maintain a secure archive of all your filings and correspondence for peace of mind.",
+        "icon": "/assets/images/checkmark.svg"
+      }
+    ]
+  },
 
   "pricing": {
     "title": "Pricing",
@@ -97,19 +95,32 @@
         "name": "Starter",
         "price": "$199",
         "priceDetails": "per year",
-        "features": ["Tax Filing for 1 Entity", "Email Support", "Secure Document Portal"]
+        "features": [
+          "Tax Filing for 1 Entity",
+          "Email Support",
+          "Secure Document Portal"
+        ]
       },
       {
         "name": "Growth (Recommended)",
         "price": "$399",
         "priceDetails": "per year",
-        "features": ["Tax Filing for up to 3 Entities", "Phone + Email Support", "Quarterly Reviews"]
+        "features": [
+          "Tax Filing for up to 3 Entities",
+          "Phone + Email Support",
+          "Quarterly Reviews"
+        ]
       },
       {
         "name": "Premium",
         "price": "$799",
         "priceDetails": "per year",
-        "features": ["Unlimited Entities", "Dedicated Advisor", "Audit Protection", "24/7 Support"]
+        "features": [
+          "Unlimited Entities",
+          "Dedicated Advisor",
+          "Audit Protection",
+          "24/7 Support"
+        ]
       }
     ]
   },
