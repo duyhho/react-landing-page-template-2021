@@ -13,11 +13,15 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
-
+import Head from 'next/head';
 const App = () => {
   const OPTIONS: EmblaOptionsType = { slidesToScroll: 'auto' };
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+       <Head>
+        <title>Small Business Tax Inc. | Expert Tax Solutions</title>
+        <meta name="description" content="Specialized tax services for small businesses and entrepreneurs." />
+      </Head>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
           <div

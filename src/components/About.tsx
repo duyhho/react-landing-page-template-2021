@@ -77,14 +77,14 @@ const About = () => {
             </svg>
           </a>
         </div>
-        <div className="flex items-center mt-6">
+        {/* <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
             &copy; {new Date().getFullYear()} designed by{' '}
             <a href="https://github.com/issaafalkattan" rel="nofollow">
-              Issaaf Kattan
+              Anonymous
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
