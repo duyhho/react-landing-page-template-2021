@@ -10,7 +10,7 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
-import Review from '../components/Review';
+
 
 import EmblaCarousel from '../components/EmblaCarousel'
 
