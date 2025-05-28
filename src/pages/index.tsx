@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react';
 
-import { EmblaOptionsType } from "embla-carousel";
+import { EmblaOptionsType } from 'embla-carousel';
 
-import About from "../components/About";
-import Analytics from "../components/Analytics";
-import Canvas from "../components/Canvas";
-import EmblaCarousel from "../components/EmblaCarousel";
-import Features from "../components/Features";
-import Header from "../components/Header";
-import LazyShow from "../components/LazyShow";
-import MainHero from "../components/MainHero";
-import MainHeroImage from "../components/MainHeroImage";
-import Pricing from "../components/Pricing";
-import Product from "../components/Product";
+import About from '../components/About';
+import Analytics from '../components/Analytics';
+import Canvas from '../components/Canvas';
+import EmblaCarousel from '../components/EmblaCarousel';
+import Features from '../components/Features';
+import Header from '../components/Header';
+import LazyShow from '../components/LazyShow';
+import MainHero from '../components/MainHero';
+import MainHeroImage from '../components/MainHeroImage';
+import Pricing from '../components/Pricing';
+import Product from '../components/Product';
 
 const App = () => {
-  const OPTIONS: EmblaOptionsType = { slidesToScroll: "auto" };
+  const OPTIONS: EmblaOptionsType = { slidesToScroll: 'auto' };
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
       <div className={`relative bg-background`}>

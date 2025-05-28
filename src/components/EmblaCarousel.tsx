@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-import { EmblaOptionsType } from "embla-carousel";
-import useEmblaCarousel from "embla-carousel-react";
+import { EmblaOptionsType } from 'embla-carousel';
+import useEmblaCarousel from 'embla-carousel-react';
 
-import config from "../config/index.json";
+import config from '../config/index.json';
 import {
   PrevButton,
   NextButton,
   usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
-import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
+} from './EmblaCarouselArrowButtons';
+import { DotButton, useDotButton } from './EmblaCarouselDotButton';
 
 const EmblaCarousel: React.FC<{ options?: EmblaOptionsType }> = ({
   options,
@@ -17,10 +17,10 @@ const EmblaCarousel: React.FC<{ options?: EmblaOptionsType }> = ({
   const { reviews } = config;
 
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.yelp.com/embed/widgets.js";
+    const script = document.createElement('script');
+    script.src = 'https://www.yelp.com/embed/widgets.js';
     script.async = true;
-    script.type = "text/javascript";
+    script.type = 'text/javascript';
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
@@ -49,15 +49,15 @@ const EmblaCarousel: React.FC<{ options?: EmblaOptionsType }> = ({
                   data-review-id={review.id}
                   data-hostname="www.yelp.com"
                 >
-                  Read{" "}
+                  Read{' '}
                   <a href={review.userUrl} rel="nofollow noopener">
                     {review.user}
                   </a>
-                  's{" "}
+                  's{' '}
                   <a href={review.reviewUrl} rel="nofollow noopener">
                     review
-                  </a>{" "}
-                  on{" "}
+                  </a>{' '}
+                  on{' '}
                   <a href="https://www.yelp.com" rel="nofollow noopener">
                     Yelp
                   </a>
@@ -79,8 +79,8 @@ const EmblaCarousel: React.FC<{ options?: EmblaOptionsType }> = ({
             <DotButton
               key={index}
               onClick={() => onDotButtonClick(index)}
-              className={"embla__dot".concat(
-                index === selectedIndex ? " embla__dot--selected" : ""
+              className={'embla__dot'.concat(
+                index === selectedIndex ? ' embla__dot--selected' : ''
               )}
             />
           ))}
